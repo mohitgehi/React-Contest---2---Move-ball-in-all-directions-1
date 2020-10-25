@@ -19,6 +19,8 @@ const App = () => {
       left: "0px",
       top: "0px"
     });
+    setX(0);
+    setY(0);
   };
   const renderChoice = () => {
     if (renderBall) {
