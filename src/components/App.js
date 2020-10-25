@@ -23,7 +23,12 @@ const App = () => {
   const renderChoice = () => {
     if (renderBall) {
       return <div className="ball" style={ballPosition}></div>;
-    } else return <button onClick={start}>Click For One Ball</button>;
+    } else
+      return (
+        <button className="start" onClick={start}>
+          Start
+        </button>
+      );
   };
 
   const move = (event) => {
