@@ -11,11 +11,11 @@ const App = () => {
   });
 
   const start = () => {
-    setRenderBall(!renderBall);
+    setRenderBall(true);
   };
 
   const reset = () => {
-    setRenderBall(!renderBall);
+    setRenderBall(false);
     setBallPosition({
       left: "0px",
       top: "0px"
